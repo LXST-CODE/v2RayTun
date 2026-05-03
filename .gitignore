@@ -1,0 +1,66 @@
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+build/
+dist/
+out/
+target/
+bin/
+obj/
+
+# Release artifacts
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.AppImage
+*.deb
+*.rpm
+*.apk
+*.aab
+*.ipa
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Android / Gradle
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Xcode / Apple platforms
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# Temporary files
+.cache/
+tmp/
+temp/

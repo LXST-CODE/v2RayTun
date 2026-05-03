@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Questions and general discussion
+    url: https://t.me/v2raytun
+    about: Ask questions, discuss usage, and talk with the community without opening an issue.
+
+  - name: GitHub Releases
+    url: https://github.com/LXST-CODE/v2RayTun/releases
+    about: Download builds and read release notes.
+
+  - name: Telegram Releases
+    url: https://t.me/v2raytun/3
+    about: Release announcements and downloadable builds.

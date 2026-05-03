@@ -1,0 +1,94 @@
+name: Feature request
+description: Suggest a new feature or improvement for v2RayTun / Предложить новую функцию или улучшение для v2RayTun
+title: "[Feature]: "
+labels: ["feature", "needs-review"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement.
+        Please describe the suggestion, expected behavior, and target platform.
+
+        Спасибо за предложение по улучшению.
+        Пожалуйста, опишите предложение, ожидаемое поведение и целевую платформу.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / Платформа
+      description: Which platform is this feature request for? / Для какой платформы это предложение?
+      options:
+        - Android / Android TV
+        - iOS
+        - macOS
+        - Windows
+        - Linux
+        - All platforms
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Проблема
+      description: What problem does this feature solve? / Какую проблему решает эта функция?
+      placeholder: "Example: It is difficult to manage multiple subscriptions."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution / Предлагаемое решение
+      description: Describe how you expect this feature to work. / Опишите, как должна работать эта функция.
+      placeholder: "Example: Add a subscription groups screen with sorting and filtering."
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case / Сценарий использования
+      description: Describe when and why this feature would be useful. / Опишите, когда и зачем эта функция будет полезна.
+      placeholder: "Example: I use several subscriptions for different devices and want to switch between them quickly."
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / Альтернативы
+      description: Are there any existing workarounds or alternative solutions? / Есть ли обходные пути или альтернативные решения?
+      placeholder: "Example: I currently create separate profiles manually."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: Importance / Важность
+      description: How important is this feature for you? / Насколько важна для вас эта функция?
+      options:
+        - Nice to have / Желательно
+        - Important / Важно
+        - Blocking my usage / Препятствует использованию
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context / Дополнительная информация
+      description: Add screenshots, examples, links, or any other details that may help explain the request. / Добавьте скриншоты, примеры, ссылки или любые другие детали, которые помогут объяснить предложение.
+      placeholder: "You can attach screenshots or describe similar behavior in other apps."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation / Подтверждение
+      options:
+        - label: I confirm that this is a feature request for the application itself, not a request for ready-made configs, subscriptions, proxy servers, or VPN services. / Я подтверждаю, что это предложение функции для самого приложения, а не запрос готовых конфигов, подписок, прокси-серверов или VPN-сервисов.
+          required: true

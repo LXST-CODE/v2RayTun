@@ -1,0 +1,123 @@
+name: Bug report
+description: Report a problem with v2RayTun / Сообщить о проблеме в v2RayTun
+title: "[Bug]: "
+labels: ["bug", "needs-review"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem.
+        Please provide enough details to help reproduce and investigate the issue.
+
+        Спасибо, что сообщаете о проблеме.
+        Пожалуйста, предоставьте достаточно подробную информацию, чтобы мы могли воспроизвести и расследовать эту проблему.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / Платформа
+      description: Which platform is affected? / На какой платформе возникает проблема?
+      options:
+        - Android / Android TV
+        - iOS
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App version / Версия приложения
+      description: Enter the v2RayTun version where the problem occurs. / Укажите версию v2RayTun, в которой возникает проблема.
+      placeholder: "Example: android-v1.8.0, windows-v1.2.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: system_version
+    attributes:
+      label: Operating system and device information / Информация об ОС и устройстве
+      description: Include OS version, device model, and vendor UI version if applicable. / Укажите версию ОС, модель устройства и версию оболочки производителя, если применимо.
+      placeholder: |
+        Examples:
+        - Android 14, Samsung Galaxy S23, One UI 6.1
+        - Android 13, Xiaomi 13, HyperOS / MIUI
+        - iOS 17.5, iPhone 14 Pro
+        - macOS 14.5, Apple Silicon
+        - Windows 11 23H2, x64
+        - Ubuntu 22.04, x64
+    validations:
+      required: true
+
+  - type: dropdown
+    id: installation_source
+    attributes:
+      label: Where was the app installed from? / Откуда было установлено приложение?
+      description: This helps identify differences between store builds, APK, and EXE installs. / Это помогает отличать сборки из магазинов, APK и EXE-файлы.
+      options:
+        - Google Play
+        - App Store
+        - APK file
+        - EXE/MSI file
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: What happened? / Что произошло?
+      description: Describe the actual behavior. / Опишите фактическое поведение.
+      placeholder: "Example: The app crashes after importing a subscription."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: What did you expect to happen? / Что должно было произойти?
+      description: Describe the expected behavior. / Опишите ожидаемое поведение.
+      placeholder: "Example: The subscription should be imported successfully."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to reproduce / Шаги для воспроизведения
+      description: Provide step-by-step instructions. / Опишите действия по шагам.
+      placeholder: |
+        1. Open the app
+        2. Go to ...
+        3. Tap ...
+        4. See error ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs_screenshots
+    attributes:
+      label: Logs, screenshots, or videos / Логи, скриншоты или видео
+      description: Attach logs, screenshots, or videos if they help explain the problem. / Приложите логи, скриншоты или видео, если они помогают объяснить проблему.
+      placeholder: "Drag and drop files here or paste logs."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context / Дополнительная информация
+      description: Add any other details that may help investigate the issue. / Добавьте любые другие детали, которые могут помочь разобраться с проблемой.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation / Подтверждение
+      options:
+        - label: I confirm that this is a problem with the application itself, not a request for ready-made configs, subscriptions, proxy servers, or VPN services. / Я подтверждаю, что это проблема самого приложения, а не запрос готовых конфигов, подписок, прокси-серверов или VPN-сервисов.
+          required: true

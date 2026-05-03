@@ -1,0 +1,50 @@
+# Normalize text files
+* text=auto
+
+# Markdown
+*.md text eol=lf
+
+# YAML
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# JSON
+*.json text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# PowerShell scripts
+*.ps1 text eol=crlf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# GitHub files
+.github/** text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+
+# Release artifacts
+*.exe binary
+*.msi binary
+*.dmg binary
+*.pkg binary
+*.AppImage binary
+*.deb binary
+*.rpm binary
+*.apk binary
+*.aab binary
+*.ipa binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.7z binary

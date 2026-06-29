@@ -8,7 +8,7 @@
 
 # v2RayTun - Proxy Client
 
-v2RayTun is a cross-platform proxy client built on [Xray core](https://github.com/XTLS/Xray-core), providing platform-specific applications for Android, Android TV, iOS, macOS, Windows, and Linux.
+v2RayTun is a cross-platform proxy client built on [Xray core](https://github.com/XTLS/Xray-core) and [AWG core](https://github.com/Windscribe/amneziawg-go/), providing platform-specific applications for Android, Android TV, iOS, macOS, Windows, and Linux.
 
 > This repository is used for public roadmap, releases, bug reports, feature requests, and platform-specific notes.
 

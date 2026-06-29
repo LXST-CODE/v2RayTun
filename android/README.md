@@ -1,6 +1,6 @@
 [![Platform](https://img.shields.io/badge/Platform-%20Android%20%7C%20Android%20TV-informational.svg)](https://developer.android.com/guide/appendix/api-levels)
 [![Android](https://img.shields.io/badge/Android-7%2B-informational.svg)](https://developer.android.com/about/versions/nougat)
-[![API Level](https://img.shields.io/badge/API%20Level-21%2B-informational.svg)](https://developer.android.com/about/versions/nougat)
+[![API Level](https://img.shields.io/badge/API%20Level-24%2B-informational.svg)](https://developer.android.com/about/versions/nougat)
 
 # v2RayTun Android
 
@@ -15,8 +15,8 @@ v2RayTun is supported on Android 7 and higher. It may work on lower versions dow
 ## Requirements
 
 - Minimum Android version: 7
-- Minimum API level: 21
-- Supported CPU architecture: x86, x86_64, armeabi-v7a, arm64-v8a
+- Minimum API level: 24
+- Supported CPU architecture: x86_64, armeabi-v7a, arm64-v8a
 
 ## Notes
 

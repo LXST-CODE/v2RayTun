@@ -21,6 +21,18 @@ Available on [Google Play](https://play.google.com/store/apps/details?id=com.v2r
 > [!NOTE]
 > The App Store version is currently not available in the RU region.
 
+### Direct Downloads
+
+Download the latest available builds using permanent links.
+
+| Platform | Download |
+|---|---|
+| Android / Android TV | [Universal APK](https://v2raytun.lxst-code.workers.dev/android) |
+| Android (ARM64) | [ARM64 APK](https://v2raytun.lxst-code.workers.dev/arm64) |
+| Windows (x64) | [Windows EXE](https://v2raytun.lxst-code.workers.dev/windows) |
+
+> Download links automatically redirect to the latest available release for each platform.
+
 ## Usage
 
 > [!WARNING]
